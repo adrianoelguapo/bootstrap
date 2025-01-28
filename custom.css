@@ -90,11 +90,30 @@ form.d-flex button {
 /* --- Contenido Home --- */
 .arrivalsphoto {
     width: 100%;
-    display: block; /* Asegura que no haya comportamiento flotante extraño */
+    display: block;
 }
 
 .homearrivaltext{
     font-size: 15px;
+}
+
+/* --- Contenido about --- */
+.img-fluid {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
 }
 
 /* --- Contenido contacto --- */
@@ -110,7 +129,7 @@ form.d-flex button {
 
 textarea.form-control {
     border-radius: 0 0.5rem 0.5rem 0;
-    resize: none; /* Evitar redimensionamiento */
+    resize: none
 }
 
 button.btn {
@@ -121,62 +140,8 @@ button.btn {
 }
 
 button.btn:hover {
-    background-color: #b71c1c; /* Rojo más oscuro para el hover */
+    background-color: #b71c1c;
     color: #fff;
-}
-
-
-/* --- Footer --- */
-.footer {
-    font-size: 17px;
-    color: #555;
-    background-color: #f9f9f9;
-}
-
-.footer h5 {
-    font-size: 1.2rem;
-    color: #dc3545;
-    font-weight: 700;
-}
-
-.footer p, .footer ul {
-    margin: 0;
-    font-size: 0.9rem;
-    color: #666;
-}
-
-.footer a {
-    transition: color 0.3s ease;
-}
-
-.footer a:hover {
-    color: #b71c1c;
-}
-
-.table-responsive {
-    margin: 0 auto;
-    max-width: 600px;
-}
-
-
-/* --- Imagen responsive --- */
-.img-fluid {
-    max-height: 400px;
-    object-fit: cover;
-    border-radius: 1rem;
-}
-
-/* --- Contenido del texto --- */
-h2 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-p {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #333;
 }
 
 /* --- Estilo Footer --- */
