@@ -61,17 +61,15 @@ form.d-flex button {
     object-fit: cover;
 }
 
+.dropdown-item:active{
+    color: white;
+    background-color: #dc3545;
+}
+
 /* --- Contenido Shop --- */
-.shopphoto {
-    width: 100%;
-}
-
-.shoptitle {
-    font-size: 30px;
-}
-
 .shoptabs{
-    width: 95%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .nav-tabs .nav-link {
@@ -134,7 +132,6 @@ textarea.form-control {
 
 button.btn {
     font-size: 1.2rem;
-    font-weight: bold;
     border-radius: 0.5rem;
     transition: background-color 0.3s ease;
 }
@@ -150,7 +147,6 @@ button.btn:hover {
     color: #555;
 }
 
-/* --- Ajustes responsivos adicionales --- */
 @media (max-width: 768px) {
     h2 {
         font-size: 1.8rem;
